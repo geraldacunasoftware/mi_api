@@ -26,7 +26,7 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'clave_default_para_desarrollo')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DJANGO_DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ['*','https://mi-api-3kq3.onrender.com','localhost']
+ALLOWED_HOSTS = ['https://mi-api-3kq3.onrender.com','localhost']
 
 
 # Application definition
